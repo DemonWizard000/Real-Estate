@@ -81,13 +81,13 @@
               "html"
             ],
             linkList: [],
-            events: {
-              'contentChanged' : function () {
-                handleChange(this.html.get())
-              }
-            }
+//             events: {
+//               'contentChanged' : function () {
+//                 handleChange(this.html.get())
+//               }
+//             }
           }}
-           //onModelChange={handleChange}
+           onModelChange={handleChange}
         />
     );
   }
